@@ -82,6 +82,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 3rem;
 }
 .css-vw4wm5 {
     width: 100%;
@@ -178,4 +179,23 @@ ul {
 .css-waryrq {
     background: rgb(39, 39, 39);
     flex: 1 0 20%;
+}
+
+.bar {
+    flex-shrink: 0;
+    border-width: 0px 0px thin;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.12);
+    width: 100%;
+    background: rgb(255, 255, 255);
+    opacity: 0.25;
+    margin: 4rem auto;
+}
+
+.footer-menu {
+    flex-direction: column;
+}
+
+.f-btn div, .f-btn ul {
+margin-right: 10rem;
 }
